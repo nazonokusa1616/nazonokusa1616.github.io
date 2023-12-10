@@ -1,0 +1,118 @@
+body{
+    /*background-image: url(./img/bg.png) ;
+    background-repeat: repeat;
+    background-size: contain;
+    background-color: #EEEEFE;
+    padding: 0;
+    border: 0;
+    margin: 0;*/
+    font-family:  "Yu Gothic" "Century Gothic";
+
+}
+
+h1{
+    font-size:32px;
+    color:rgba(10,10,40);
+}
+
+
+#test{
+    border: 3px dotted #DDDD00;
+    border-radius: 36px;
+    padding: 1% 2%;
+}
+
+.container{
+    width: 100%;
+    justify-content: center;
+}
+.header{
+    font-family: 'Slabo 27px', serif;
+    text-align: left;
+    border: 2%;
+    margin: 2%;
+}
+.main{
+    text-align: center;
+    justify-content: center;
+}
+.footer{
+    text-align: center;
+    font-size: 8px;
+}
+.gallery{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    overflow: auto;
+}
+.clear{
+    clear: both;
+}
+.horizontal-list
+{
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+.item
+{
+    /* 横スクロール用 */
+    display: inline-block;
+    width: 230px;
+
+    /* 見た目調整 */
+    height: 150px;
+    margin: 16px;
+    background: #1B73BA;
+}
+.item a:hover{
+  opacity: 0.8;
+}
+
+#msr_box02 {
+  background-color: #1B73BA;
+  width: 230px;
+  padding: 0;
+  margin: 1%;
+}
+#msr_box02 a{
+  box-sizing: border-box;
+  display:block;
+  position: relative;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+}
+#msr_box02 p {
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 1.6;
+  padding: 0 20px 8px 8px;
+}
+#msr_box02 .ttl {
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.6;
+  padding: 8px 20px 4px 8px;
+}
+#msr_box02 a:after {
+  background-image: url(./img/flat_white_box01.png);
+  background-repeat: no-repeat;
+  bottom: 5px;
+  content: " ";
+  display: inline-block;
+  *display:inline;
+  *zoom:1;
+  height: 20px;
+  position: absolute;
+  right: 5px;
+  width: 20px;
+}
+#msr_box02 a:hover{
+  opacity: 0.8;
+}
